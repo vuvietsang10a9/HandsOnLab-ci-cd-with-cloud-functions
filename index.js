@@ -6,6 +6,6 @@
 * @param {Object} res Cloud Function response context.
 * More info: https://expressjs.com/en/api.html#res
 */
-exports.helloCiCd = (req, res) => {
+exports.helloCiCd1 = (req, res) => {
   res.send({ yourName: req.body.name });
-};
+};		
