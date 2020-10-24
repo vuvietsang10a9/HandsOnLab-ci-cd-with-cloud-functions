@@ -7,5 +7,5 @@
 * More info: https://expressjs.com/en/api.html#res
 */
 exports.helloCiCd = (req, res) => {
-  res.send(`Hello ${req.body.name || 'World'}!`);
+  res.send({ yourName: req.body.name });
 };
